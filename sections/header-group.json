@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "FREE DELIVERY FOR ORDERS ABOVE 35$",
             "text_on_mobile": "",
             "text_size": 13,
             "link": ""
@@ -30,14 +30,14 @@
       "settings": {
         "only_homepage": false,
         "layout": "default",
-        "mobile_layout": "carousel",
+        "mobile_layout": "marquee",
         "autorotate": true,
         "autorotate_speed": 5,
         "show_navigation": true,
         "direction": "left",
         "speed": 1.6,
-        "colors_text": "#1a1b18",
-        "colors_background": "#f7eedd",
+        "colors_text": "#ffffff",
+        "colors_background": "#595e46",
         "gradient_background": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -46,6 +46,7 @@
     "header": {
       "type": "header",
       "settings": {
+        "logo": "shopify://shop_images/ChatGPT_Image_Jan_19_2026_09_55_26_PM_dc6624d8-717b-4ddd-acab-5243d5d1dde3.png",
         "logo_height": 50,
         "mobile_logo_height": 44,
         "logo_position": "top-center",
@@ -60,7 +61,7 @@
         "enable_language_selector": true,
         "enable_sticky_header": true,
         "show_sticky_header_scroll_up": false,
-        "enable_transparent_header": true,
+        "enable_transparent_header": false,
         "enable_transparent_header_collection": true,
         "enable_transparent_header_custom": "",
         "show_transparent_header_border": false,
