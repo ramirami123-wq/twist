@@ -265,6 +265,47 @@
         "padding_bottom": 28
       }
     },
+    "image_with_text_Y37Hng": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_CFmLWB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Turn “Just Another Night” Into Something Special",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CFmLWB"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2026-01-19_220833.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -297,12 +338,12 @@
         "guarantee-0": {
           "type": "guarantee",
           "settings": {
-            "icon": "leaf",
+            "icon": "shield",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "100% Screen-Free Experience",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": ""
           }
         },
         "guarantee-1": {
@@ -311,39 +352,30 @@
             "icon": "globe",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "24/7 Customer Support",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": ""
           }
         },
         "guarantee-2": {
           "type": "guarantee",
           "settings": {
-            "icon": "recycle",
+            "icon": "star",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "Premium Print Quality",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
-          }
-        },
-        "guarantee-3": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "shield",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": ""
           }
         }
       },
       "block_order": [
         "guarantee-0",
         "guarantee-1",
-        "guarantee-2",
-        "guarantee-3"
+        "guarantee-2"
+      ],
+      "custom_css": [
+        "span{color:white;}"
       ],
       "settings": {
         "layout": "default",
@@ -351,14 +383,14 @@
         "horizontal_content": false,
         "full_width": true,
         "show_divider": false,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "heading": "Guarantees",
         "heading_size": "h1",
         "heading_tag": "h2",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
+        "swipe_on_mobile": false,
+        "use_custom_colors": true,
+        "colors_icon": "#595e46",
         "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
         "gradient_background": "",
@@ -373,6 +405,7 @@
     "scrolling-promotion",
     "multicolumn_eqN7BW",
     "scrolling_promotion_9WhUpx",
+    "image_with_text_Y37Hng",
     "product-recommendations",
     "guarantees"
   ]
