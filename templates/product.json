@@ -130,7 +130,7 @@
         "show_featured_media": false,
         "show_thumbnails": true,
         "hide_variants": true,
-        "enable_image_zoom": true,
+        "enable_image_zoom": false,
         "enable_video_looping": false,
         "mobile_image_ratio": "portrait",
         "show_mobile_thumbnails": true,
@@ -375,7 +375,7 @@
         "guarantee-2"
       ],
       "custom_css": [
-        "span{color:white;}"
+        "span {color: white;}"
       ],
       "settings": {
         "layout": "default",
